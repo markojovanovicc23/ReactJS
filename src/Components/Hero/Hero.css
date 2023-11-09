@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 :root {
-    --primary-color: #247464;
+    --primary-color: orange;
     --text-color: #fff;
 }
 
@@ -15,16 +15,15 @@
     background: #fff;
   }
 
-.hero-sec .hero-img img {
-    width: 40%;
-    padding-top: 150px;
-    padding-left: 1030px;
-    transition: .9s;
-}
+  body {
+    background-color: #fff;
+  }
 
-.hero-sec .hero-img img:hover {
-    opacity: 0.5;
-    transition: .9s;
+.hero-sec img {
+    background-image: url('slika.jpg');
+    background-size: cover;
+    width: 100%;
+    margin-right: 100px;
 }
 
 .hero-sec .hero-content {
@@ -32,7 +31,7 @@
 }
 
 .hero-sec .hero-content h1 {
-    margin-top: -250px;
+    margin-top: -550px;
     margin-right: 850px;
     font-size: 2.8rem;
 }
@@ -44,6 +43,35 @@
 }
 
 .hero-sec .hero-content span {
-    color: pink;
+    color: orange;
     text-shadow: 2px 2px 2px black;
+}
+
+.hero-sec .hero-content .btn-box {
+    width: 500px;
+    height: 50px;
+    background: yellowgreen;
+}
+
+.btn-box a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: orange;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.9s;
+}
+
+.hero-sec .hero-content .btn-box a:hover {
+    color: orange;
+    background: transparent;
+    transition: 0.9s;
 }

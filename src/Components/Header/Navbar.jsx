@@ -12,7 +12,7 @@ function Header() {
                 <li><a href='#'>Contact</a></li>
             </ul>
 
-            <a className='logo'>Travel Agency</a>
+            <a className='logo'><i class='bx bxs-plane-alt'></i> Travel Agency</a>
 
         </nav>
     </div>
