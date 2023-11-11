@@ -88,3 +88,32 @@ body {
 .hero-sec span {
     color: orange;
 }
+
+.hero-sec img {
+    background-size: cover;
+}
+
+.hero-sec .img-unutra img {
+    width: 40%;
+    margin-left: -900px;
+}
+
+.hero-sec .img-unutra p {
+    font-size: 1.7rem;
+    margin-top: -400px;
+    margin-left: 900px;
+}
+
+.hero-sec .img-unutra .lista{
+    background-color: purple;
+    margin-right: 800px;
+    margin-left: 800px;
+}
+
+.hero-sec .img-unutra ul li {
+    list-style-type: none;
+}
+
+.hero-sec .img-unutra span {
+    color: #fff;
+}
